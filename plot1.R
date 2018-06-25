@@ -1,3 +1,5 @@
+## I have modified this code
+
 hpcdata<-read.csv2("household_power_consumption.txt")
 
 hpcdata[,1]<-as.Date(hpcdata[,1],"%d/%m/%Y")
